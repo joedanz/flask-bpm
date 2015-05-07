@@ -5,8 +5,8 @@ app = Flask(__name__)
 
 # configuration details
 num_songs = 7
-lastfm_apikey = '*** REPLACE WITH YOUR KEY ***'
-echonest_apikey = '*** REPLACE WITH YOUR KEY ***'
+lastfm_apikey = 'f5751cfc3aefbd7aa133f9d3bb4b19cd'
+echonest_apikey = 'IL6UAJYLSF4XRPAX4'
 
 @app.before_request
 def db_connect():
