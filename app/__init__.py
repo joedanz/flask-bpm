@@ -83,8 +83,4 @@ def get_recent(username):
     return render_template('index.html', name=username, num_songs=num_songs, songs1=songs1, songs2=songs2)
 
 if __name__ == '__main__':
-    app.run(
-        host="0.0.0.0",
-        port=int("5000"),
-        debug=True
-    )
+    app.run(debug=True)
