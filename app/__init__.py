@@ -11,7 +11,7 @@ echonest_apikey = 'IL6UAJYLSF4XRPAX4'
 @app.before_request
 def db_connect():
     # SQLit3 Database initialization
-    DATABASE = '../db/bpm.db'
+    DATABASE = 'bpm.db'
     g.db = sqlite3.connect(DATABASE)
 
 @app.teardown_request
